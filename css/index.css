@@ -82,10 +82,22 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+}
+.top-content .text-container p {
+    width: 750px;
+    height: 250px;
+    margin: -200px 350px -50px -200px;
+    padding: 200px;
+    
+}
+.top-content .text-container h2 {
+    margin-top: 20px;
 }
 
 .middle-content {
+    width: 800px;
+    margin: 0 auto;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -98,13 +110,13 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: pink;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -113,9 +125,11 @@ p {
 }
 
 .bottom-content {
+    width: 800px;
+    margin: 0 auto;
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .bottom-content .text-container {
@@ -126,21 +140,178 @@ p {
     padding-right: 0;
 }
 
+.bottom-content .text-container p {
+    width: 200px; 
+    height: 100px;
+margin: 5px -250px 50px 310px;
+}
+.bottom-content .text-container h2 {
+    margin: 0px -100px 10px 315px;
+}
+
 footer {
-    width: 100%;
+    width: 55%;
     background: black;
+    margin: 0 auto;
 }
 
 footer nav {
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+ nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+   
+    padding: 20px 2%;
+    font-size: 14px;
+ 
+}
+
+
+ footer nav a {
+  color: white;
+  text-decoration: none;
+  
+
+  
+}
+header nav {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+header nav a {
+    color: black;
+  text-decoration: none;
+  margin: 0px -650px 30px 650px;
+}
+
+ img.lambda { 
+    
+    display: block;
+    margin: 0px -680px 50px 290px;
+  }
+img.jumboimage {
+    display: block;
+    margin: 0 auto;
+}
+ 
+
+
+
+.middle-content .boxes .box.one {
+  background: teal;
+}
+.middle-content .boxes .box.two {
+  background: gold;
+}
+
+.middle-content .boxes .box.three {
+  background: cadetblue;
+}
+
+.middle-content .boxes .box.four {
+  background: coral;
+}
+
+.middle-content .boxes .box.five {
+  background: crimson;
+}
+
+.middle-content .boxes .box.six {
+  background: forestgreen;
+}
+
+.middle-content .boxes .box.seven {
+  background: darkorchid;
+}
+
+.middle-content .boxes .box.eight {
+  background: hotpink;
+}
+
+.middle-content .boxes .box.nine {
+  background: indigo;
+}
+
+.middle-content .boxes .box.ten {
+  background: dodgerblue;
+}
+
+header .about-page nav {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+
+}
+
+header .about-page nav a {
+margin: 50px -250px 50px -200px;
+}
+img.lambda2 {
+    width: 150px;
+    height: 35px;
+    margin: 0px -150px 5px 300px;
+}
+
+img.jumboabout {
+  display: block;
+  margin: 0 auto;
+
+}
+
+
+.aboutsection .aboutdiv p {
+  width: 780px;
+  height: 300px;
+  margin: 0 auto;
+
+}
+.aboutsection .aboutdiv h5 {
+  margin: 25px 100px 5px 330px;
+}
+.aboutsection2 .strategyandhow{
+  width: 100%;
+  height: 500px;
+  
+}
+.aboutsection2 .strategyandhow .textholder1 h5 {
+margin: 0px 150px 5px 50px;
+display: block;
+}
+.aboutsection2 .strategyandhow .textholder1 p {
+width: 150px;
+height: 150px;
+margin: 5px 50px 5px 450px;
+display: block;
+}
+.aboutsection2 .strategyandhow .textholder2 p {
+  width: 150px;
+  height: 150px;
+  margin: -200px 50px 5px 150px;
+  display: block;
+  }
+  .aboutsection2 .strategyandhow .imageone {
+    margin: -200px 5px 50px 320px;
+  }
+  .aboutsection2 .strategyandhow .imagetwo {
+    margin: -200px 50px 50px 50px;
+  }
