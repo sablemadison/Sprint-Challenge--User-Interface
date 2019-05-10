@@ -104,3 +104,13 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
+
+
+SELF-STUDY QUESTION ANSWERS
+1. Semantic html means wrapping your html in meaningful tags that will give your content order and clarity. Without semantic html, your code will be difficult for other developers to understand or modify. Also non-semantic html is bad for your site's SEO. 
+
+2. Elements that have their display property set to 'Block' respect the properties height snd width but inline elements do not. Also, inline elements only use as much space as their content whereas block elements take up us much space as their parent element allows. 
+
+3. Content, padding, border and margin. 
+
+4. Git is valuable to a team of developers because it enables them to keep strict track of any changes made to their project, return to earlier versions if necessesary and work on content simultaneously.
